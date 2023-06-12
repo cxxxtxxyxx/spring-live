@@ -1,6 +1,7 @@
-package model;
+package model.transaction;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 
 import java.sql.Timestamp;
@@ -8,6 +9,7 @@ import java.sql.Timestamp;
 
 @Getter
 @AllArgsConstructor
+@Builder
 public class Transaction {
     private int transactionNumber;
     private int transactionAmount;

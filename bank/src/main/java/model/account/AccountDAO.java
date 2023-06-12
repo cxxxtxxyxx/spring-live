@@ -1,7 +1,6 @@
-package model;
+package model.account;
 
 
-import db.DBConnection;
 import lombok.AllArgsConstructor;
 
 import java.sql.Connection;
