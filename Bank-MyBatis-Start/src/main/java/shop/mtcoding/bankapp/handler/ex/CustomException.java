@@ -1,4 +1,4 @@
-package shop.mtcoding.bankapp.model.history.ex;
+package shop.mtcoding.bankapp.handler.ex;
 
 import org.springframework.http.HttpStatus;
 

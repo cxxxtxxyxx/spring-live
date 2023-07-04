@@ -21,7 +21,7 @@ public class OAuthProfile {
         @JsonProperty("is_email_valid")
         private Boolean isEmailValid;
         @JsonProperty("is_email_verified")
-        private Boolean isEmailVerifed;
+        private Boolean isEmailVerified;
         private String email;
     }
 }

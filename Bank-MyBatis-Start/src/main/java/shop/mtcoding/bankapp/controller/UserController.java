@@ -4,14 +4,12 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import shop.mtcoding.bankapp.dto.user.JoinReqDto;
 import shop.mtcoding.bankapp.dto.user.LoginReqDto;
-import shop.mtcoding.bankapp.model.history.ex.CustomException;
+import shop.mtcoding.bankapp.handler.ex.CustomException;
 import shop.mtcoding.bankapp.model.user.User;
 import shop.mtcoding.bankapp.service.UserService;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.http.HttpSession;
 
 @Controller

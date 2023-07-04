@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import shop.mtcoding.bankapp.dto.user.JoinReqDto;
 import shop.mtcoding.bankapp.dto.user.LoginReqDto;
-import shop.mtcoding.bankapp.model.history.ex.CustomException;
+import shop.mtcoding.bankapp.handler.ex.CustomException;
 import shop.mtcoding.bankapp.model.user.User;
 import shop.mtcoding.bankapp.model.user.UserRepository;
 
