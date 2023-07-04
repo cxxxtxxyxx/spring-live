@@ -45,7 +45,7 @@ public class UserController {
         // 2. code 값 카카오 전달 -> access token 받기
         MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
         body.add("grant_type", "authorization_code");
-        body.add("client_id", "1f7061f93b3e8f6cbb2a143f64f71f0c");
+        body.add("client_id", "510e09592b1197652bfa854b34a2592d");
         body.add("redirect_uri", "http://localhost:8080/callback"); // 2차 검증
         body.add("code", code); // 핵심
 
